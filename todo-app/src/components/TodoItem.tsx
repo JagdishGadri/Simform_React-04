@@ -4,7 +4,12 @@ import React, { useState } from "react";
 
 import "./TodoItem.css";
 
-function TodoItem(props: any) {
+type todoItemProps={
+    detail:string
+    key:number
+};
+
+function TodoItem(props: todoItemProps) {
   const [isChecked, setIsChecked] = useState(false);
 
   const checkboxHandler = () => {

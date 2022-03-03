@@ -5,35 +5,36 @@ import TodoList from "./TodoList";
 import AddTodo from "./AddTodo";
 import "./TodoContainer.css";
 
-const TodoContainer = () => {
-  const todos = [
+
+const TodoContainer= () => {
+  const todos= [
     {
       detail: "Buy sweatshirt",
-      id: "1",
+      id: 1,
     },
     {
       detail: "Begin Promotional phase",
-      id: "2",
+      id: 2,
     },
     {
       detail: "Read an Article",
-      id: "3",
+      id: 3,
     },
     {
       detail: "Try not to fall asleep",
-      id: "4",
+      id: 4,
     },
     {
       detail: "Watch sherlock",
-      id: "5",
+      id: 5,
     },
     {
       detail: "Begin QA for the product.",
-      id: "6",
+      id: 6,
     },
     {
       detail: "Go for a Walk",
-      id: "7",
+      id: 7,
     },
   ];
   return (
